@@ -1,0 +1,23 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/card.js": "components/card.js",
+    "components/nuxt-logo.js": "components/nuxt-logo.js",
+    "components/section-content.js": "components/section-content.js",
+    "components/tutorial.js": "components/tutorial.js",
+    "pages/courses.js": "pages/courses.js",
+    "pages/index.js": "pages/index.js",
+    "pages/inspire.js": "pages/inspire.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/card.js": "components/card.js.map",
+    "components/nuxt-logo.js": "components/nuxt-logo.js.map",
+    "components/section-content.js": "components/section-content.js.map",
+    "components/tutorial.js": "components/tutorial.js.map",
+    "pages/courses.js": "pages/courses.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/inspire.js": "pages/inspire.js.map",
+    "server.js": "server.js.map"
+  }
+}
