@@ -1,10 +1,12 @@
 <template>
   <div class="container">
     <h3>วิชาที่ฉันลงทะเบียนทั้งหมด</h3>
-    <table>
+    <table class="table" v-if="myEnrollment.length > 0">
       <thead>
-        <th>รหัสวิชา</th>
-        <th>ชื่อวิชา</th>
+        <tr>
+          <th>รหัสวิชา</th>
+          <th>ชื่อวิชา</th>
+        </tr>
       </thead>
       <tbody>
         <tr v-for="(subject, index) in myEnrollment" :key="index">
@@ -13,6 +15,7 @@
         </tr>
       </tbody>
     </table>
+    <div v-else>ท่านยังไม่ได้ลงทะเบียนวิชาใดๆ</div>
   </div>
 </template>
 <script setup>
