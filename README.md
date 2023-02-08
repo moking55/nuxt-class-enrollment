@@ -1,3 +1,6 @@
+## หากต้องการดู source code ในส่วนของ Nuxt 2 สามารถสลับ Branch เป็น Master ได้ครับ
+
+
 # vue-class-enrollment
 
 This template should help get you started developing with Vue 3 in Vite.
